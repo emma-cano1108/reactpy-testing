@@ -26,6 +26,7 @@ def stars():
 
 @component
 def App():
+
     return html.header(
         html.h1({"style":{"background":"black", "color":"white"}}, "Header"),
         html.button("Hola"),
